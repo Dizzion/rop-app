@@ -1,7 +1,12 @@
 import React from "react";
 import { Button, Container, FormControl, InputGroup } from "react-bootstrap";
+import { Player } from '../Model/player.model';
 
-const NewMember: React.FC = () => {
+type NewMemberProps = {
+    onAddMember: (member: Player) => void;
+}
+
+const NewMember: React.FC<NewMemberProps> = props => {
   return (
     <div>
       <Container fluid="sm">
