@@ -5,6 +5,7 @@ function Card() {
     return (
         <div>
             <ListGroup>
+                <ListGroup.Item active>Group #</ListGroup.Item>
                 <ListGroup.Item>Person 1</ListGroup.Item>
                 <ListGroup.Item>Person 2</ListGroup.Item>
                 <ListGroup.Item>Person 3</ListGroup.Item>
