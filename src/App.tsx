@@ -4,7 +4,6 @@ import { Player } from "./Model/player.model";
 import NewMember from "./Components/NewMember";
 import CardContainer from './Components/CardContainer';
 import "./App.scss";
-import { Col, Container, Row } from "react-bootstrap";
 
 const App: React.FC = () => {
   const [members, setMembers] = useState<Player[]>([]);
@@ -17,7 +16,7 @@ const App: React.FC = () => {
     <div className="App">
       <Header />
       <NewMember onAddMember={memberAddHandler}/>
-      <CardContainer members={members}/>
+      <CardContainer Members={members}/>
     </div>
   );
 };

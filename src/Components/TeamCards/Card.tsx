@@ -1,7 +1,10 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
+import { Player } from '../../Model/player.model';
 
-function Card() {
+type Members = Player[];
+
+const Card: React.FC<Members> = props => {
     return (
         <div>
             <ListGroup>

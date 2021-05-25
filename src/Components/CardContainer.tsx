@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Card from "./TeamCards/Card";
 import { Player } from "../Model/player.model";
 
-type Members = Player[];
 
-const CardContainer: React.FC<Members> = props => {
+
+const CardContainer: React.FC<any> = props => {
   return (
     <div>
       {/*add sorting and use algorythm to sort all the members when added to site
@@ -13,10 +13,10 @@ const CardContainer: React.FC<Members> = props => {
       <Container fluid>
         <Row>
           <Col sm>
-            <Card />
+            {/*<Card />*/}
           </Col>
           <Col sm>
-            <Card />
+            {/*<Card />*/}
           </Col>
         </Row>
       </Container>
