@@ -67,6 +67,38 @@ const NewMember: React.FC<NewMemberProps> = props => {
                     />
                 </Col>
             </Form.Row>
+            <Form.Row>
+                <Col>
+                    <Form.Label htmlFor="FighterAttackInput" srOnly>
+                        FigherAttack
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="FigherAttackInput"
+                        placeholder="Figher Attack Buff"
+                    />
+                </Col>
+                <Col>
+                    <Form.Label htmlFor="FighterDefenseInput" srOnly>
+                        FigherDefense
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="FigherDefenseInput"
+                        placeholder="Figher Defense Buff"
+                    />
+                </Col>
+                <Col>
+                    <Form.Label htmlFor="FighterHealthInput" srOnly>
+                        FigherHealth
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="FigherHealthInput"
+                        placeholder="Figher Health Buff"
+                    />
+                </Col>
+            </Form.Row>
         </Form>
       </Container>
     </div>
