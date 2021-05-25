@@ -130,6 +130,38 @@ const NewMember: React.FC<NewMemberProps> = props => {
                         placeholder="Shooter Health Buff"
                     />
                 </Col>
+                <Form.Row>
+                <Col>
+                    <Form.Label htmlFor="RiderAttackInput" srOnly>
+                        RiderAttack
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="RiderAttackInput"
+                        placeholder="Rider Attack Buff"
+                    />
+                </Col>
+                <Col>
+                    <Form.Label htmlFor="RiderDefenseInput" srOnly>
+                        RiderDefense
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="RiderDefenseInput"
+                        placeholder="Rider Defense Buff"
+                    />
+                </Col>
+                <Col>
+                    <Form.Label htmlFor="RiderHealthInput" srOnly>
+                        RiderHealth
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="RiderHealthInput"
+                        placeholder="Rider Health Buff"
+                    />
+                </Col>
+            </Form.Row>
             </Form.Row>
         </Form>
       </Container>
