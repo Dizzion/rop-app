@@ -70,32 +70,64 @@ const NewMember: React.FC<NewMemberProps> = props => {
             <Form.Row>
                 <Col>
                     <Form.Label htmlFor="FighterAttackInput" srOnly>
-                        FigherAttack
+                        FighterAttack
                     </Form.Label>
                     <Form.Control
                         className="mb-2"
-                        id="FigherAttackInput"
-                        placeholder="Figher Attack Buff"
+                        id="FighterAttackInput"
+                        placeholder="Fighter Attack Buff"
                     />
                 </Col>
                 <Col>
                     <Form.Label htmlFor="FighterDefenseInput" srOnly>
-                        FigherDefense
+                        FighterDefense
                     </Form.Label>
                     <Form.Control
                         className="mb-2"
-                        id="FigherDefenseInput"
-                        placeholder="Figher Defense Buff"
+                        id="FighterDefenseInput"
+                        placeholder="Fighter Defense Buff"
                     />
                 </Col>
                 <Col>
                     <Form.Label htmlFor="FighterHealthInput" srOnly>
-                        FigherHealth
+                        FighterHealth
                     </Form.Label>
                     <Form.Control
                         className="mb-2"
-                        id="FigherHealthInput"
-                        placeholder="Figher Health Buff"
+                        id="FighterHealthInput"
+                        placeholder="Fighter Health Buff"
+                    />
+                </Col>
+            </Form.Row>
+            <Form.Row>
+                <Col>
+                    <Form.Label htmlFor="ShooterAttackInput" srOnly>
+                        ShooterAttack
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="ShooterAttackInput"
+                        placeholder="Shooter Attack Buff"
+                    />
+                </Col>
+                <Col>
+                    <Form.Label htmlFor="ShooterDefenseInput" srOnly>
+                        ShooterDefense
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="ShooterDefenseInput"
+                        placeholder="Shooter Defense Buff"
+                    />
+                </Col>
+                <Col>
+                    <Form.Label htmlFor="ShooterHealthInput" srOnly>
+                        ShooterHealth
+                    </Form.Label>
+                    <Form.Control
+                        className="mb-2"
+                        id="ShooterHealthInput"
+                        placeholder="Shooter Health Buff"
                     />
                 </Col>
             </Form.Row>
