@@ -162,6 +162,60 @@ const NewMember: React.FC<NewMemberProps> = (props) => {
               />
             </Col>
           </Form.Row>
+          <Form.Row>
+            <Col>
+              <Form.Label htmlFor="TroopAttackInput" srOnly>
+                TroopAttack
+              </Form.Label>
+              <Form.Control
+                className="mb-2"
+                id="TroopAttackInput"
+                placeholder="Troop Attack Buff"
+              />
+            </Col>
+            <Col>
+              <Form.Label htmlFor="TroopDefenseInput" srOnly>
+                TroopDefense
+              </Form.Label>
+              <Form.Control
+                className="mb-2"
+                id="TroopDefenseInput"
+                placeholder="Troop Defense Buff"
+              />
+            </Col>
+            <Col>
+              <Form.Label htmlFor="TroopHealthInput" srOnly>
+                TroopHealth
+              </Form.Label>
+              <Form.Control
+                className="mb-2"
+                id="TroopHealthInput"
+                placeholder="Troop Health Buff"
+              />
+            </Col>
+          </Form.Row>
+          <Form.Row>
+            <Col>
+              <Form.Label htmlFor="TroopDMGUpInput" srOnly>
+                TroopDMGUp
+              </Form.Label>
+              <Form.Control
+                className="mb-2"
+                id="TroopDMGUpInput"
+                placeholder="Troop DMG Up"
+              />
+            </Col>
+            <Col>
+              <Form.Label htmlFor="TroopDMGDownInput" srOnly>
+                TroopDMGDown
+              </Form.Label>
+              <Form.Control
+                className="mb-2"
+                id="TroopDMGInput"
+                placeholder="Troop DMG Down"
+              />
+            </Col>
+          </Form.Row>
           <Button variant="outline-warning">Submit Member</Button>
         </Form>
       </Container>
