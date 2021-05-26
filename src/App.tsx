@@ -13,6 +13,8 @@ const App: React.FC = () => {
     setMembers(prevMembers => [...prevMembers, member]);
   };
 
+  let sorted: boolean = false;
+
   let memberList = members.map((per, i) => {
     return <ListGroup.Item>{per.username}</ListGroup.Item>
   });
@@ -20,7 +22,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
-      {members ? memberList: ''}
+      <ListGroup>{members ? memberList: ''}</ListGroup>
       <NewMember onAddMember={memberAddHandler}/>
       <CardContainer Members={members}/>
     </div>
