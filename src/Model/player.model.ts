@@ -1,5 +1,5 @@
 export interface Player {
-    id: string;
+    username: string;
     troopTier: number;
     marchSize: number;
     rallySize: number;
