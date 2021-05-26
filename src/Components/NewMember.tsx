@@ -25,7 +25,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
   };
 
   fighterState = (e: React.ChangeEvent<HTMLInputElement>): void => {
-    if(e.currentTarget.name == "Fattack") {
+    if(e.currentTarget.name === "Fattack") {
         this.setState(prevState => ({
             fighters: {
                 ...prevState.fighters,
@@ -33,7 +33,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Fdefense") {
+    if(e.currentTarget.name === "Fdefense") {
         this.setState(prevState => ({
             fighters: {
                 ...prevState.fighters,
@@ -41,7 +41,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Fhealth") {
+    if(e.currentTarget.name === "Fhealth") {
         this.setState(prevState => ({
             fighters: {
                 ...prevState.fighters,
@@ -52,7 +52,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
   }
 
   shooterState = (e: React.ChangeEvent<HTMLInputElement>): void => {
-    if(e.currentTarget.name == "Sattack") {
+    if(e.currentTarget.name === "Sattack") {
         this.setState(prevState => ({
             shooters: {
                 ...prevState.shooters,
@@ -60,7 +60,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Sdefense") {
+    if(e.currentTarget.name === "Sdefense") {
         this.setState(prevState => ({
             shooters: {
                 ...prevState.shooters,
@@ -68,7 +68,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Shealth") {
+    if(e.currentTarget.name === "Shealth") {
         this.setState(prevState => ({
             shooters: {
                 ...prevState.shooters,
@@ -79,7 +79,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
   }
 
   riderState = (e: React.ChangeEvent<HTMLInputElement>): void => {
-    if(e.currentTarget.name == "Rattack") {
+    if(e.currentTarget.name === "Rattack") {
         this.setState(prevState => ({
             riders: {
                 ...prevState.riders,
@@ -87,7 +87,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Rdefense") {
+    if(e.currentTarget.name === "Rdefense") {
         this.setState(prevState => ({
             riders: {
                 ...prevState.riders,
@@ -95,7 +95,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Rhealth") {
+    if(e.currentTarget.name === "Rhealth") {
         this.setState(prevState => ({
             riders: {
                 ...prevState.riders,
@@ -106,22 +106,22 @@ class NewMember extends React.Component<NewMemberProps, Player> {
   }
 
   handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if(e.currentTarget.name == "username") {
+    if(e.currentTarget.name === "username") {
         this.setState({ username: e.currentTarget.value });
     }
-    if(e.currentTarget.name == "troopTier") {
+    if(e.currentTarget.name === "troopTier") {
         this.setState({ troopTier: parseInt(e.currentTarget.value) });
     }
-    if(e.currentTarget.name == "marchSize") {
+    if(e.currentTarget.name === "marchSize") {
         this.setState({ marchSize: parseInt(e.currentTarget.value) });
     }
-    if(e.currentTarget.name == "rallySize") {
+    if(e.currentTarget.name === "rallySize") {
         this.setState({ rallySize: parseInt(e.currentTarget.value) });
     }
     this.fighterState(e);
     this.shooterState(e);
     this.riderState(e);
-    if(e.currentTarget.name == "Tattack") {
+    if(e.currentTarget.name === "Tattack") {
         this.setState(prevState => ({
             troop: {
                 ...prevState.troop,
@@ -129,7 +129,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Tdefense") {
+    if(e.currentTarget.name === "Tdefense") {
         this.setState(prevState => ({
             troop: {
                 ...prevState.troop,
@@ -137,7 +137,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "Thealth") {
+    if(e.currentTarget.name === "Thealth") {
         this.setState(prevState => ({
             troop: {
                 ...prevState.troop,
@@ -145,7 +145,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "TDup") {
+    if(e.currentTarget.name === "TDup") {
         this.setState(prevState => ({
             troopDmg: {
                 ...prevState.troopDmg,
@@ -153,7 +153,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             }
         }));
     }
-    if(e.currentTarget.name == "TDdown") {
+    if(e.currentTarget.name === "TDdown") {
         this.setState(prevState => ({
             troopDmg: {
                 ...prevState.troopDmg,
