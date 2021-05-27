@@ -4,7 +4,7 @@ import { Player } from "./Model/player.model";
 import NewMember from "./Components/NewMember";
 import CardContainer from './Components/CardContainer';
 import "./App.scss";
-import { ListGroup } from "react-bootstrap";
+import { Card, CardGroup } from "react-bootstrap";
 
 const App: React.FC = () => {
   const [members, setMembers] = useState<Player[]>([]);
@@ -16,14 +16,14 @@ const App: React.FC = () => {
   let sorted: boolean = false;
 
   let memberList = members.map((per, i) => {
-    return <ListGroup.Item>{per.username}</ListGroup.Item>
+    return <Card key={i}>{per.username}</Card>
   });
 
   return (
     <div className="App">
       <Header />
-      <ListGroup>{members ? memberList: ''}</ListGroup>
       <NewMember onAddMember={memberAddHandler}/>
+      <CardGroup>{members ? memberList: ''}</CardGroup>
       <CardContainer Members={members}/>
     </div>
   );
