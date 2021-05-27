@@ -186,7 +186,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col xs="auto">
-                <Form.Label htmlFor="TroopTierInput">TroopTier</Form.Label>
+                <Form.Label htmlFor="TroopTierInput">Troop Tier</Form.Label>
                 <InputGroup className="mb-2">
                   <InputGroup.Prepend>
                     <InputGroup.Text>T</InputGroup.Text>
@@ -207,7 +207,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 </InputGroup>
               </Col>
               <Col>
-                <Form.Label htmlFor="MarchInput">MarchSize</Form.Label>
+                <Form.Label htmlFor="MarchInput">March Size</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="Marchinput"
@@ -218,7 +218,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RallyInput">RallySize</Form.Label>
+                <Form.Label htmlFor="RallyInput">Rally Size</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="Rallyinput"
@@ -232,7 +232,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             <Form.Row>
               <Col>
                 <Form.Label htmlFor="FighterAttackInput">
-                  FighterAttack
+                  Fighter Attack
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -245,7 +245,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="FighterDefenseInput">
-                  FighterDefense
+                  Fighter Defense
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -258,7 +258,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="FighterHealthInput">
-                  FighterHealth
+                  Fighter Health
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -273,7 +273,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             <Form.Row>
               <Col>
                 <Form.Label htmlFor="ShooterAttackInput">
-                  ShooterAttack
+                  Shooter Attack
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -286,7 +286,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="ShooterDefenseInput">
-                  ShooterDefense
+                  Shooter Defense
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -299,7 +299,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="ShooterHealthInput">
-                  ShooterHealth
+                  Shooter Health
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -313,7 +313,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="RiderAttackInput">RiderAttack</Form.Label>
+                <Form.Label htmlFor="RiderAttackInput">Rider Attack</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="RiderAttackInput"
@@ -325,7 +325,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="RiderDefenseInput">
-                  RiderDefense
+                  Rider Defense
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -337,7 +337,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RiderHealthInput">RiderHealth</Form.Label>
+                <Form.Label htmlFor="RiderHealthInput">Rider Health</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="RiderHealthInput"
@@ -350,7 +350,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopAttackInput">TroopAttack</Form.Label>
+                <Form.Label htmlFor="TroopAttackInput">Troop Attack</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopAttackInput"
@@ -362,7 +362,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="TroopDefenseInput">
-                  TroopDefense
+                  Troop Defense
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -374,7 +374,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopHealthInput">TroopHealth</Form.Label>
+                <Form.Label htmlFor="TroopHealthInput">Troop Health</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopHealthInput"
@@ -387,7 +387,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopDMGUpInput">TroopDMGUp</Form.Label>
+                <Form.Label htmlFor="TroopDMGUpInput">Troop DMGUp</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopDMGUpInput"
@@ -399,7 +399,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="TroopDMGDownInput">
-                  TroopDMGDown
+                  Troop DMGDown
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
