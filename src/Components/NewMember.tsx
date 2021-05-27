@@ -21,15 +21,17 @@ class NewMember extends React.Component<NewMemberProps, Player> {
 
   handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    console.log(this.state);
     this.props.onAddMember(this.state);
   };
 
   fighterState = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    let num = parseInt(e.currentTarget.value);
     if(e.currentTarget.name === "Fattack") {
         this.setState(prevState => ({
             fighters: {
                 ...prevState.fighters,
-                attack: parseInt(e.currentTarget.value)
+                attack: num
             }
         }));
     }
@@ -37,7 +39,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             fighters: {
                 ...prevState.fighters,
-                defense: parseInt(e.currentTarget.value)
+                defense: num
             }
         }));
     }
@@ -45,18 +47,19 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             fighters: {
                 ...prevState.fighters,
-                health: parseInt(e.currentTarget.value)
+                health: num
             }
         }));
     }
   }
 
   shooterState = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    let num = parseInt(e.currentTarget.value);
     if(e.currentTarget.name === "Sattack") {
         this.setState(prevState => ({
             shooters: {
                 ...prevState.shooters,
-                attack: parseInt(e.currentTarget.value)
+                attack: num
             }
         }));
     }
@@ -64,7 +67,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             shooters: {
                 ...prevState.shooters,
-                defense: parseInt(e.currentTarget.value)
+                defense: num
             }
         }));
     }
@@ -72,18 +75,19 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             shooters: {
                 ...prevState.shooters,
-                health: parseInt(e.currentTarget.value)
+                health: num
             }
         }));
     }
   }
 
   riderState = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    let num = parseInt(e.currentTarget.value);
     if(e.currentTarget.name === "Rattack") {
         this.setState(prevState => ({
             riders: {
                 ...prevState.riders,
-                attack: parseInt(e.currentTarget.value)
+                attack: num
             }
         }));
     }
@@ -91,7 +95,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             riders: {
                 ...prevState.riders,
-                defense: parseInt(e.currentTarget.value)
+                defense: num
             }
         }));
     }
@@ -99,24 +103,25 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             riders: {
                 ...prevState.riders,
-                health: parseInt(e.currentTarget.value)
+                health: num
             }
         }));
     }
   }
 
   handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let num = parseInt(e.currentTarget.value);
     if(e.currentTarget.name === "username") {
         this.setState({ username: e.currentTarget.value });
     }
     if(e.currentTarget.name === "troopTier") {
-        this.setState({ troopTier: parseInt(e.currentTarget.value) });
+        this.setState({ troopTier: num });
     }
     if(e.currentTarget.name === "marchSize") {
-        this.setState({ marchSize: parseInt(e.currentTarget.value) });
+        this.setState({ marchSize: num });
     }
     if(e.currentTarget.name === "rallySize") {
-        this.setState({ rallySize: parseInt(e.currentTarget.value) });
+        this.setState({ rallySize: num });
     }
     this.fighterState(e);
     this.shooterState(e);
@@ -125,7 +130,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             troop: {
                 ...prevState.troop,
-                attack: parseInt(e.currentTarget.value)
+                attack: num
             }
         }));
     }
@@ -133,7 +138,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             troop: {
                 ...prevState.troop,
-                defense: parseInt(e.currentTarget.value)
+                defense: num
             }
         }));
     }
@@ -141,7 +146,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             troop: {
                 ...prevState.troop,
-                health: parseInt(e.currentTarget.value)
+                health: num
             }
         }));
     }
@@ -149,7 +154,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             troopDmg: {
                 ...prevState.troopDmg,
-                up: parseInt(e.currentTarget.value)
+                up: num
             }
         }));
     }
@@ -157,7 +162,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
         this.setState(prevState => ({
             troopDmg: {
                 ...prevState.troopDmg,
-                down: parseInt(e.currentTarget.value)
+                down: num
             }
         }));
     }
