@@ -27,147 +27,146 @@ class NewMember extends React.Component<NewMemberProps, Player> {
 
   fighterState = (e: React.ChangeEvent<HTMLInputElement>): void => {
     let num = parseInt(e.currentTarget.value);
-    if(e.currentTarget.name === "Fattack") {
-        this.setState(prevState => ({
-            fighters: {
-                ...prevState.fighters,
-                attack: num
-            }
-        }));
+    if (e.currentTarget.name === "Fattack") {
+      this.setState((prevState) => ({
+        fighters: {
+          ...prevState.fighters,
+          attack: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Fdefense") {
-        this.setState(prevState => ({
-            fighters: {
-                ...prevState.fighters,
-                defense: num
-            }
-        }));
+    if (e.currentTarget.name === "Fdefense") {
+      this.setState((prevState) => ({
+        fighters: {
+          ...prevState.fighters,
+          defense: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Fhealth") {
-        this.setState(prevState => ({
-            fighters: {
-                ...prevState.fighters,
-                health: num
-            }
-        }));
+    if (e.currentTarget.name === "Fhealth") {
+      this.setState((prevState) => ({
+        fighters: {
+          ...prevState.fighters,
+          health: num,
+        },
+      }));
     }
-  }
+  };
 
   shooterState = (e: React.ChangeEvent<HTMLInputElement>): void => {
     let num = parseInt(e.currentTarget.value);
-    if(e.currentTarget.name === "Sattack") {
-        this.setState(prevState => ({
-            shooters: {
-                ...prevState.shooters,
-                attack: num
-            }
-        }));
+    if (e.currentTarget.name === "Sattack") {
+      this.setState((prevState) => ({
+        shooters: {
+          ...prevState.shooters,
+          attack: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Sdefense") {
-        this.setState(prevState => ({
-            shooters: {
-                ...prevState.shooters,
-                defense: num
-            }
-        }));
+    if (e.currentTarget.name === "Sdefense") {
+      this.setState((prevState) => ({
+        shooters: {
+          ...prevState.shooters,
+          defense: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Shealth") {
-        this.setState(prevState => ({
-            shooters: {
-                ...prevState.shooters,
-                health: num
-            }
-        }));
+    if (e.currentTarget.name === "Shealth") {
+      this.setState((prevState) => ({
+        shooters: {
+          ...prevState.shooters,
+          health: num,
+        },
+      }));
     }
-  }
+  };
 
   riderState = (e: React.ChangeEvent<HTMLInputElement>): void => {
     let num = parseInt(e.currentTarget.value);
-    if(e.currentTarget.name === "Rattack") {
-        this.setState(prevState => ({
-            riders: {
-                ...prevState.riders,
-                attack: num
-            }
-        }));
+    if (e.currentTarget.name === "Rattack") {
+      this.setState((prevState) => ({
+        riders: {
+          ...prevState.riders,
+          attack: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Rdefense") {
-        this.setState(prevState => ({
-            riders: {
-                ...prevState.riders,
-                defense: num
-            }
-        }));
+    if (e.currentTarget.name === "Rdefense") {
+      this.setState((prevState) => ({
+        riders: {
+          ...prevState.riders,
+          defense: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Rhealth") {
-        this.setState(prevState => ({
-            riders: {
-                ...prevState.riders,
-                health: num
-            }
-        }));
+    if (e.currentTarget.name === "Rhealth") {
+      this.setState((prevState) => ({
+        riders: {
+          ...prevState.riders,
+          health: num,
+        },
+      }));
     }
-  }
+  };
 
   handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     let num = parseInt(e.currentTarget.value);
-    if(e.currentTarget.name === "username") {
-        this.setState({ username: e.currentTarget.value });
+    if (e.currentTarget.name === "username") {
+      this.setState({ username: e.currentTarget.value });
     }
-    if(e.currentTarget.name === "troopTier") {
-        this.setState({ troopTier: num });
+    if (e.currentTarget.name === "troopTier") {
+      this.setState({ troopTier: num });
     }
-    if(e.currentTarget.name === "marchSize") {
-        this.setState({ marchSize: num });
+    if (e.currentTarget.name === "marchSize") {
+      this.setState({ marchSize: num });
     }
-    if(e.currentTarget.name === "rallySize") {
-        this.setState({ rallySize: num });
+    if (e.currentTarget.name === "rallySize") {
+      this.setState({ rallySize: num });
     }
     this.fighterState(e);
     this.shooterState(e);
     this.riderState(e);
-    if(e.currentTarget.name === "Tattack") {
-        this.setState(prevState => ({
-            troop: {
-                ...prevState.troop,
-                attack: num
-            }
-        }));
+    if (e.currentTarget.name === "Tattack") {
+      this.setState((prevState) => ({
+        troop: {
+          ...prevState.troop,
+          attack: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Tdefense") {
-        this.setState(prevState => ({
-            troop: {
-                ...prevState.troop,
-                defense: num
-            }
-        }));
+    if (e.currentTarget.name === "Tdefense") {
+      this.setState((prevState) => ({
+        troop: {
+          ...prevState.troop,
+          defense: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "Thealth") {
-        this.setState(prevState => ({
-            troop: {
-                ...prevState.troop,
-                health: num
-            }
-        }));
+    if (e.currentTarget.name === "Thealth") {
+      this.setState((prevState) => ({
+        troop: {
+          ...prevState.troop,
+          health: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "TDup") {
-        this.setState(prevState => ({
-            troopDmg: {
-                ...prevState.troopDmg,
-                up: num
-            }
-        }));
+    if (e.currentTarget.name === "TDup") {
+      this.setState((prevState) => ({
+        troopDmg: {
+          ...prevState.troopDmg,
+          up: num,
+        },
+      }));
     }
-    if(e.currentTarget.name === "TDdown") {
-        this.setState(prevState => ({
-            troopDmg: {
-                ...prevState.troopDmg,
-                down: num
-            }
-        }));
+    if (e.currentTarget.name === "TDdown") {
+      this.setState((prevState) => ({
+        troopDmg: {
+          ...prevState.troopDmg,
+          down: num,
+        },
+      }));
     }
   };
-
 
   render() {
     return (
@@ -176,9 +175,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
           <Form onSubmit={this.handleSubmit}>
             <Form.Row className="align-items-center">
               <Col>
-                <Form.Label htmlFor="username" >
-                  Username
-                </Form.Label>
+                <Form.Label htmlFor="username">Username</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="username"
@@ -189,9 +186,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col xs="auto">
-                <Form.Label htmlFor="TroopTierInput" >
-                  TroopTier
-                </Form.Label>
+                <Form.Label htmlFor="TroopTierInput">TroopTier</Form.Label>
                 <InputGroup className="mb-2">
                   <InputGroup.Prepend>
                     <InputGroup.Text>T</InputGroup.Text>
@@ -212,9 +207,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 </InputGroup>
               </Col>
               <Col>
-                <Form.Label htmlFor="MarchInput" >
-                  MarchSize
-                </Form.Label>
+                <Form.Label htmlFor="MarchInput">MarchSize</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="Marchinput"
@@ -225,9 +218,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RallyInput" >
-                  RallySize
-                </Form.Label>
+                <Form.Label htmlFor="RallyInput">RallySize</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="Rallyinput"
@@ -240,7 +231,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="FighterAttackInput" >
+                <Form.Label htmlFor="FighterAttackInput">
                   FighterAttack
                 </Form.Label>
                 <Form.Control
@@ -253,7 +244,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="FighterDefenseInput" >
+                <Form.Label htmlFor="FighterDefenseInput">
                   FighterDefense
                 </Form.Label>
                 <Form.Control
@@ -266,7 +257,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="FighterHealthInput" >
+                <Form.Label htmlFor="FighterHealthInput">
                   FighterHealth
                 </Form.Label>
                 <Form.Control
@@ -281,7 +272,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="ShooterAttackInput" >
+                <Form.Label htmlFor="ShooterAttackInput">
                   ShooterAttack
                 </Form.Label>
                 <Form.Control
@@ -294,7 +285,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="ShooterDefenseInput" >
+                <Form.Label htmlFor="ShooterDefenseInput">
                   ShooterDefense
                 </Form.Label>
                 <Form.Control
@@ -307,7 +298,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="ShooterHealthInput" >
+                <Form.Label htmlFor="ShooterHealthInput">
                   ShooterHealth
                 </Form.Label>
                 <Form.Control
@@ -322,9 +313,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="RiderAttackInput" >
-                  RiderAttack
-                </Form.Label>
+                <Form.Label htmlFor="RiderAttackInput">RiderAttack</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="RiderAttackInput"
@@ -335,7 +324,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RiderDefenseInput" >
+                <Form.Label htmlFor="RiderDefenseInput">
                   RiderDefense
                 </Form.Label>
                 <Form.Control
@@ -348,9 +337,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RiderHealthInput" >
-                  RiderHealth
-                </Form.Label>
+                <Form.Label htmlFor="RiderHealthInput">RiderHealth</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="RiderHealthInput"
@@ -363,9 +350,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopAttackInput" >
-                  TroopAttack
-                </Form.Label>
+                <Form.Label htmlFor="TroopAttackInput">TroopAttack</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopAttackInput"
@@ -376,7 +361,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopDefenseInput" >
+                <Form.Label htmlFor="TroopDefenseInput">
                   TroopDefense
                 </Form.Label>
                 <Form.Control
@@ -389,9 +374,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopHealthInput" >
-                  TroopHealth
-                </Form.Label>
+                <Form.Label htmlFor="TroopHealthInput">TroopHealth</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopHealthInput"
@@ -404,9 +387,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopDMGUpInput" >
-                  TroopDMGUp
-                </Form.Label>
+                <Form.Label htmlFor="TroopDMGUpInput">TroopDMGUp</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopDMGUpInput"
@@ -417,7 +398,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopDMGDownInput" >
+                <Form.Label htmlFor="TroopDMGDownInput">
                   TroopDMGDown
                 </Form.Label>
                 <Form.Control
