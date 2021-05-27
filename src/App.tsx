@@ -23,7 +23,7 @@ const App: React.FC = () => {
     <div className="App">
       <Header />
       <NewMember onAddMember={memberAddHandler}/>
-      <CardGroup>{members ? memberList: ''}</CardGroup>
+      <CardGroup className="row row-cols-1 row-cols-md-4 container-fluid">{members ? memberList: ''}</CardGroup>
       <CardContainer Members={members}/>
     </div>
   );

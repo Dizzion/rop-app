@@ -176,7 +176,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
           <Form onSubmit={this.handleSubmit}>
             <Form.Row className="align-items-center">
               <Col>
-                <Form.Label htmlFor="username" srOnly>
+                <Form.Label htmlFor="username" >
                   Username
                 </Form.Label>
                 <Form.Control
@@ -189,7 +189,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col xs="auto">
-                <Form.Label htmlFor="TroopTierInput" srOnly>
+                <Form.Label htmlFor="TroopTierInput" >
                   TroopTier
                 </Form.Label>
                 <InputGroup className="mb-2">
@@ -212,7 +212,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 </InputGroup>
               </Col>
               <Col>
-                <Form.Label htmlFor="MarchInput" srOnly>
+                <Form.Label htmlFor="MarchInput" >
                   MarchSize
                 </Form.Label>
                 <Form.Control
@@ -225,7 +225,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RallyInput" srOnly>
+                <Form.Label htmlFor="RallyInput" >
                   RallySize
                 </Form.Label>
                 <Form.Control
@@ -240,7 +240,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="FighterAttackInput" srOnly>
+                <Form.Label htmlFor="FighterAttackInput" >
                   FighterAttack
                 </Form.Label>
                 <Form.Control
@@ -253,7 +253,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="FighterDefenseInput" srOnly>
+                <Form.Label htmlFor="FighterDefenseInput" >
                   FighterDefense
                 </Form.Label>
                 <Form.Control
@@ -266,7 +266,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="FighterHealthInput" srOnly>
+                <Form.Label htmlFor="FighterHealthInput" >
                   FighterHealth
                 </Form.Label>
                 <Form.Control
@@ -281,7 +281,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="ShooterAttackInput" srOnly>
+                <Form.Label htmlFor="ShooterAttackInput" >
                   ShooterAttack
                 </Form.Label>
                 <Form.Control
@@ -294,7 +294,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="ShooterDefenseInput" srOnly>
+                <Form.Label htmlFor="ShooterDefenseInput" >
                   ShooterDefense
                 </Form.Label>
                 <Form.Control
@@ -307,7 +307,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="ShooterHealthInput" srOnly>
+                <Form.Label htmlFor="ShooterHealthInput" >
                   ShooterHealth
                 </Form.Label>
                 <Form.Control
@@ -322,7 +322,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="RiderAttackInput" srOnly>
+                <Form.Label htmlFor="RiderAttackInput" >
                   RiderAttack
                 </Form.Label>
                 <Form.Control
@@ -335,7 +335,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RiderDefenseInput" srOnly>
+                <Form.Label htmlFor="RiderDefenseInput" >
                   RiderDefense
                 </Form.Label>
                 <Form.Control
@@ -348,7 +348,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="RiderHealthInput" srOnly>
+                <Form.Label htmlFor="RiderHealthInput" >
                   RiderHealth
                 </Form.Label>
                 <Form.Control
@@ -363,7 +363,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopAttackInput" srOnly>
+                <Form.Label htmlFor="TroopAttackInput" >
                   TroopAttack
                 </Form.Label>
                 <Form.Control
@@ -376,7 +376,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopDefenseInput" srOnly>
+                <Form.Label htmlFor="TroopDefenseInput" >
                   TroopDefense
                 </Form.Label>
                 <Form.Control
@@ -389,7 +389,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopHealthInput" srOnly>
+                <Form.Label htmlFor="TroopHealthInput" >
                   TroopHealth
                 </Form.Label>
                 <Form.Control
@@ -404,7 +404,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopDMGUpInput" srOnly>
+                <Form.Label htmlFor="TroopDMGUpInput" >
                   TroopDMGUp
                 </Form.Label>
                 <Form.Control
@@ -417,7 +417,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
               <Col>
-                <Form.Label htmlFor="TroopDMGDownInput" srOnly>
+                <Form.Label htmlFor="TroopDMGDownInput" >
                   TroopDMGDown
                 </Form.Label>
                 <Form.Control
@@ -430,7 +430,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
             </Form.Row>
-            <Button variant="outline-warning" type="sumbit">
+            <Button variant="outline-dark" type="sumbit">
               Submit Member
             </Button>
           </Form>
