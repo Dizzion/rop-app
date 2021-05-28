@@ -3,7 +3,12 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import Card from "./TeamCards/Card";
 import { Player } from "../Model/player.model";
 
-const CardContainer: React.FC<any> = (props) => {
+const CardContainer: React.FC<any> = props => {
+
+    const createGroups = () => {
+        let numGroups: number = props.members.length / 6
+    }
+
   return (
     <div>
       {/*add sorting and use algorythm to sort all the members when added to site
