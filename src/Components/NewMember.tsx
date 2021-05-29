@@ -169,7 +169,6 @@ class NewMember extends React.Component<NewMemberProps, Player> {
 
   render() {
     return (
-      <div>
         <Container fluid="sm">
           <Form onSubmit={this.handleSubmit}>
             <Form.Row className="align-items-center">
@@ -415,7 +414,6 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Button>
           </Form>
         </Container>
-      </div>
     );
   }
 }

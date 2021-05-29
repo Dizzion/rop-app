@@ -1,7 +1,10 @@
 .header {
-    background-color: rgba(238, 63, 238, 0.397);
-    h1 {
+    background-color: rgba(238, 63, 238, 0.288);
+    padding-bottom: 0rem;
+    .name {
+        color: aliceblue;    
+    }
+    .name:hover {
         color: aliceblue;
     }
-    
 }

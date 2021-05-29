@@ -36,10 +36,9 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <Header />
+      <Header num={members.length}/>
       <CardContainer createGroups={createGroups} cards={cards} />
       <NewMember onAddMember={memberAddHandler} />
-      <h2>{members.length} Members</h2>
     </div>
   );
 };
