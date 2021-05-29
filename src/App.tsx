@@ -4,7 +4,7 @@ import { Player } from "./Model/player.model";
 import NewMember from "./Components/NewMember";
 import CardContainer from "./Components/CardContainer";
 import "./App.scss";
-import { Button, Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup } from "react-bootstrap";
 
 const App: React.FC = () => {
   const [members, setMembers] = useState<Player[]>([]);

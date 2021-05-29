@@ -387,7 +387,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
             </Form.Row>
             <Form.Row>
               <Col>
-                <Form.Label htmlFor="TroopDMGUpInput">Troop DMGUp</Form.Label>
+                <Form.Label htmlFor="TroopDMGUpInput">TroopDMG Up</Form.Label>
                 <Form.Control
                   className="mb-2"
                   id="TroopDMGUpInput"
@@ -399,7 +399,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
               </Col>
               <Col>
                 <Form.Label htmlFor="TroopDMGDownInput">
-                  Troop DMGDown
+                  TroopDMG Down
                 </Form.Label>
                 <Form.Control
                   className="mb-2"
@@ -411,7 +411,7 @@ class NewMember extends React.Component<NewMemberProps, Player> {
                 />
               </Col>
             </Form.Row>
-            <Button variant="outline-dark" type="sumbit">
+            <Button variant="info" type="sumbit">
               Submit Member
             </Button>
           </Form>
