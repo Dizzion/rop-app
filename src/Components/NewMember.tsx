@@ -21,7 +21,6 @@ class NewMember extends React.Component<NewMemberProps, Player> {
 
   handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(this.state);
     this.props.onAddMember(this.state);
   };
 
