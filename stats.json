@@ -215,7 +215,7 @@
         "marchSize": 132200,
         "rallySize": 700000,
         "fighters": {
-            "attack": 399,
+            "attack": 502,
             "defense": 355,
             "health": 435
         },
@@ -230,7 +230,7 @@
             "health": 162
         },
         "troop": {
-            "attack": 81,
+            "attack": 92,
             "defense": 185,
             "health": 179
         },
@@ -687,6 +687,156 @@
         "troopDmg": {
             "up": 0,
             "down": 0
+        }
+    },
+    "BenYY": {
+        "username": "BenYY",
+        "troopTier": 8,
+        "marchSize": 122200,
+        "rallySize": 550000,
+        "fighters": {
+            "attack": 259,
+            "defense": 265,
+            "health": 280
+        },
+        "shooters": {
+            "attack": 113,
+            "defense": 65,
+            "health": 61
+        },
+        "riders": {
+            "attack": 91,
+            "defense": 106,
+            "health": 101
+        },
+        "troop": {
+            "attack": 58,
+            "defense": 77,
+            "health": 62
+        },
+        "troopDmg": {
+            "up": 0.5,
+            "down": 0.5
+        }
+    },
+    "Pat": {
+        "username": "Pat",
+        "troopTier": 87,
+        "marchSize": 73800,
+        "rallySize": 400000,
+        "fighters": {
+            "attack": 148,
+            "defense": 170,
+            "health": 183
+        },
+        "shooters": {
+            "attack": 153,
+            "defense": 119,
+            "health": 134
+        },
+        "riders": {
+            "attack": 133,
+            "defense": 127,
+            "health": 144
+        },
+        "troop": {
+            "attack": 30,
+            "defense": 57,
+            "health": 48
+        },
+        "troopDmg": {
+            "up": 1,
+            "down": 1
+        }
+    },
+    "DikDik": {
+        "username": "DikDik",
+        "troopTier": 8,
+        "marchSize": 124500,
+        "rallySize": 650000,
+        "fighters": {
+            "attack": 310,
+            "defense": 279,
+            "health": 314
+        },
+        "shooters": {
+            "attack": 241,
+            "defense": 215,
+            "health": 209
+        },
+        "riders": {
+            "attack": 437,
+            "defense": 384,
+            "health": 420
+        },
+        "troop": {
+            "attack": 125,
+            "defense": 181,
+            "health": 167
+        },
+        "troopDmg": {
+            "up": 1,
+            "down": 1
+        }
+    },
+    "HoneyMustard": {
+        "username": "HoneyMustard",
+        "troopTier": 8,
+        "marchSize": 87200,
+        "rallySize": 550000,
+        "fighters": {
+            "attack": 166,
+            "defense": 168,
+            "health": 177
+        },
+        "shooters": {
+            "attack": 169,
+            "defense": 150,
+            "health": 161
+        },
+        "riders": {
+            "attack": 153,
+            "defense": 114,
+            "health": 122
+        },
+        "troop": {
+            "attack": 60,
+            "defense": 68,
+            "health": 65
+        },
+        "troopDmg": {
+            "up": 0,
+            "down": 0
+        }
+    },
+    "No1Babe": {
+        "username": "No1Babe",
+        "troopTier": 9,
+        "marchSize": 157400,
+        "rallySize": 870000,
+        "fighters": {
+            "attack": 684,
+            "defense": 672,
+            "health": 694
+        },
+        "shooters": {
+            "attack": 196,
+            "defense": 242,
+            "health": 238
+        },
+        "riders": {
+            "attack": 236,
+            "defense": 154,
+            "health": 154
+        },
+        "troop": {
+            "attack": 202,
+            "defense": 199,
+            "health": 191
+        },
+        "troopDmg": {
+            "up": 1,
+            "down": 1
         }
     }
 }
