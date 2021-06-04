@@ -242,7 +242,7 @@
     "Star": {
         "username": "Star",
         "troopTier": 8,
-        "marchSize": 92200,
+        "marchSize": 106800,
         "rallySize": 650000,
         "fighters": {
             "attack": 191,
