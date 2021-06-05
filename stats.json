@@ -515,7 +515,7 @@
         "marchSize": 152600,
         "rallySize": 810000,
         "fighters": {
-            "attack": 665,
+            "attack": 771,
             "defense": 459,
             "health": 480
         },
@@ -837,6 +837,36 @@
         "troopDmg": {
             "up": 1,
             "down": 1
+        }
+    },
+    "Cheese": {
+        "username": "Cheese",
+        "troopTier": 7,
+        "marchSize": 100200,
+        "rallySize": 500000,
+        "fighters": {
+            "attack": 278,
+            "defense": 220,
+            "health": 212
+        },
+        "shooters": {
+            "attack": 191,
+            "defense": 155,
+            "health": 153
+        },
+        "riders": {
+            "attack": 194,
+            "defense": 154,
+            "health": 146
+        },
+        "troop": {
+            "attack": 35,
+            "defense": 46,
+            "health": 40
+        },
+        "troopDmg": {
+            "up": 0,
+            "down": 0
         }
     }
 }
