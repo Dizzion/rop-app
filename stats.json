@@ -212,27 +212,27 @@
     "Dizzion": {
         "username": "Dizzion",
         "troopTier": 8,
-        "marchSize": 132200,
+        "marchSize": 139400,
         "rallySize": 700000,
         "fighters": {
-            "attack": 502,
-            "defense": 355,
-            "health": 435
+            "attack": 527,
+            "defense": 398,
+            "health": 476
         },
         "shooters": {
-            "attack": 187,
-            "defense": 171,
-            "health": 185
+            "attack": 202,
+            "defense": 204,
+            "health": 211
         },
         "riders": {
-            "attack": 184,
-            "defense": 151,
-            "health": 162
+            "attack": 220,
+            "defense": 182,
+            "health": 192
         },
         "troop": {
             "attack": 92,
-            "defense": 185,
-            "health": 179
+            "defense": 197,
+            "health": 190
         },
         "troopDmg": {
             "up": 0.5,
@@ -602,8 +602,8 @@
     "ZK": {
         "username": "ZK",
         "troopTier": 8,
-        "marchSize": 141500,
-        "rallySize": 600000,
+        "marchSize": 143500,
+        "rallySize": 700000,
         "fighters": {
             "attack": 454,
             "defense": 392,
