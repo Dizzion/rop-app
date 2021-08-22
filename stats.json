@@ -92,27 +92,27 @@
     "Onur": {
         "username": "Onur",
         "troopTier": 7,
-        "marchSize": 99200,
+        "marchSize": 113200,
         "rallySize": 550000,
         "fighters": {
-            "attack": 233,
-            "defense": 212,
-            "health": 220
+            "attack": 285,
+            "defense": 252,
+            "health": 255
         },
         "shooters": {
-            "attack": 217,
-            "defense": 187,
-            "health": 201
+            "attack": 209,
+            "defense": 192,
+            "health": 206
         },
         "riders": {
-            "attack": 186,
-            "defense": 173,
-            "health": 185
+            "attack": 204,
+            "defense": 186,
+            "health": 197
         },
         "troop": {
-            "attack": 76,
-            "defense": 92,
-            "health": 79
+            "attack": 84,
+            "defense": 137,
+            "health": 90
         },
         "troopDmg": {
             "up": 1,
@@ -362,27 +362,27 @@
     "Bathelme": {
         "username": "Bathelme",
         "troopTier": 8,
-        "marchSize": 133400,
-        "rallySize": 700000,
+        "marchSize": 139400,
+        "rallySize": 750000,
         "fighters": {
-            "attack": 466,
-            "defense": 398,
-            "health": 422
+            "attack": 480,
+            "defense": 414,
+            "health": 442
         },
         "shooters": {
-            "attack": 187,
-            "defense": 154,
-            "health": 169
+            "attack": 191,
+            "defense": 159,
+            "health": 173
         },
         "riders": {
-            "attack": 158,
-            "defense": 127,
-            "health": 134
+            "attack": 167,
+            "defense": 145,
+            "health": 156
         },
         "troop": {
-            "attack": 82,
-            "defense": 139,
-            "health": 126
+            "attack": 116,
+            "defense": 215,
+            "health": 137
         },
         "troopDmg": {
             "up": 0.5,
